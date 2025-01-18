@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Inter;
+    src: url(social-links-profile-main/assets/fonts/Inter.ttf) format(truetype);
+}
+
+* {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #141414;
+    place-content: center;
+    display: grid;
+
+}
+
+main {
+    background-color: #1F1F1F;
+    text-align: center;
+    border-radius: 15px;
+    padding: 40px 40px 35px 40px;
+    max-width: 100%;
+    width: 300px;
+    margin: auto;
+    margin-top: 100px;
+
+}
+
+#pic {
+    width: 100px;
+    border-radius: 50%;   
+}
+
+h1#name {
+    color: white;
+    text-align: center;
+    font-size: 1.7em;
+}
+
+h2#location {
+    color: #CEF155;
+    text-align: center;
+    font-size: 1em;
+    margin-top: -10px;
+}
+
+p#job {
+    color: white;
+    text-align: center;
+    font-size: 0.9em;
+    margin-bottom: 25px;
+    margin-top: 35px;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: inherit;
+}
+
+.social:hover {
+    text-decoration: none;
+    color: black;
+    background-color: #CEF155;
+    font-weight: bold;
+}
+
+.social {
+    text-decoration: none;
+    color: white;
+    background-color: #333333;
+}
+
+footer {
+    font-size: 0.75em;
+    text-align: center;
+    color: rgb(229, 229, 229);
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
+footer > p {
+    margin: 0%;
+}
+
+span {
+    color: rgb(127, 127, 255);
+}
